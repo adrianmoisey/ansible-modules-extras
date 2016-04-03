@@ -19,7 +19,7 @@
 
 DOCUMENTATION = '''
 ---
-module: github
+module: github_release
 short_description: Interact with GitHub Releases
 description:
     - Fetch metadata about Github Releases
