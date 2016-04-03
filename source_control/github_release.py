@@ -44,7 +44,7 @@ options:
         choices: [ 'latest_release' ]
 
 author:
-    - "Adrian Moisey"
+    - "Adrian Moisey (@adrianmoisey)"
 requirements:
     - "github3.py >= 1.0.0a3"
 '''
