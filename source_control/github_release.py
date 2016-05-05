@@ -23,7 +23,7 @@ module: github_release
 short_description: Interact with GitHub Releases
 description:
     - Fetch metadata about Github Releases
-version_added: 2.1
+version_added: 2.2
 options:
     token:
         required: true
