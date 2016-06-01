@@ -98,7 +98,8 @@ def main():
         gh = github3.login(token=str(login_token))
         # test if we're actually logged in
         gh.me()
-    except github3.AuthenticationFailed, e:
+    except github3.AuthenticationFailed:
+        e = get_exception()
         module.fail_json(msg='Failed to connect to Github: %s' % e)
 
     repository = gh.repository(str(user), str(repo))
